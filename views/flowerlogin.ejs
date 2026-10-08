@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
+    <link rel="stylesheet" href="flowerlogin.css">
 </head>
 <body>
 
-    <h1>Hello World</h1>
+   
+    <div class="login">
+   
+    <div class="innerline">
+
+    <form action="/login" method="POST">
+
+        <div>
+            <h2 class="Heading">Red rose!</h2>
+            <h4 class="subheading">Glow like flowers</h4>
+        </div>
+
+        <input type="text" placeholder="Enter Email" name="username" id="user">
+
+        <input type="password" placeholder="Enter password" name="password" id="pass">
+
+        <h4 class ="url">
+            <a href="/Forget-password">Forget password</a>
+        </h4>
+
+        <button class="btn">Submit</button>
+
+        <h5 class="sing">
+            Don't have account yet? 
+            <a href="/signup"> Sign up</a>
+            </div>
+        </h5>
+
+    </form>
+</div>
+
+
+        
+         
 
 </body>
 </html>
