@@ -44,7 +44,7 @@ body{
     
 }
 .Heading{
-    color:red;
+    color:rgb(249, 249, 249);
     font-size: 40px;
    font-family: "Indie Flower", cursive;
     margin-bottom: 2px;
@@ -54,7 +54,7 @@ body{
   
 }
 .subheading{
-    color:red;
+    color:rgb(224, 167, 167);
     font-size: 20px;
    font-family: "Indie Flower", cursive;
     margin-top: 0 ;    
